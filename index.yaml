@@ -3,12 +3,12 @@ entries:
   my-dummy-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-27T09:54:07.694005-08:00"
+    created: "2025-11-27T10:34:19.449611-08:00"
     description: A Helm chart for Kubernetes
     digest: be91f6545f95c2809903733e3e050e295bb397f0d4852e34dd3e9a2911af57bd
     name: my-dummy-chart
     type: application
     urls:
-    - https://<YOUR-GITHUB-USERNAME>.github.io/%3CYOUR-REPO-NAME%3E/my-dummy-chart-0.1.0.tgz
+    - https://momesgin.github.io/mo-charts/my-dummy-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-27T09:54:07.693046-08:00"
+generated: "2025-11-27T10:34:19.448915-08:00"
