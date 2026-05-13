@@ -3,6 +3,7 @@ entries:
   my-dummy-chart:
   - annotations:
       catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/namespace: dummy-namespace-v3
     apiVersion: v2
     appVersion: 1.16.0
     created: "2025-11-27T11:56:37.6277-08:00"
@@ -16,6 +17,7 @@ entries:
     version: 0.3.0
   - annotations:
       catalog.cattle.io/permits-os: linux
+      catalog.cattle.io/namespace: dummy-namespace-v2
     apiVersion: v2
     appVersion: 1.16.0
     created: "2025-11-27T11:56:37.627414-08:00"
@@ -27,7 +29,9 @@ entries:
     urls:
     - https://momesgin.github.io/mo-charts/my-dummy-chart-0.2.0.tgz
     version: 0.2.0
-  - apiVersion: v2
+  - annotations:
+      catalog.cattle.io/namespace: dummy-namespace-v1
+    apiVersion: v2
     appVersion: 1.16.0
     created: "2025-11-27T11:56:37.627076-08:00"
     description: A Helm chart for Kubernetes
